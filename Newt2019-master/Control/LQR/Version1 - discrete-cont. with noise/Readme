@@ -1,0 +1,2 @@
+In this folder we have both the continous time and the discrete time model in Simulink. Also there is a .m file. 
+This version have a relative good tuned Q and R. Also there is an added state noise and sensor noise.
