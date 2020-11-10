@@ -1,0 +1,4 @@
+start /min cmd /c "net use X: \\newt\PiDesktop /user:pi NEWTPI"
+
+copy /Y "$(OutputDirectory)\$(OutputFileName).hex" "\\newt\PiDesktop\ArduinoHex\$(OutputFileName).hex"
+start /B putty.exe -ssh pi@192.168.128.21 -pw NEWT -m $(SolutionDir)\newt_commands.txt -t

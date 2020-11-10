@@ -1,0 +1,4 @@
+cd Desktop/ArduinoHex
+./deployToArduino
+python3 Serial_Communication.py
+/bin/bash
